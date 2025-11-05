@@ -1,0 +1,17 @@
+x=int(input("Enter First Number: "))
+y=int(input("Enter Second Number: "))
+def calculations(x,y):
+    z=x+y
+    print("The sum of two numbers are",z)
+calculations(x,y)
+def newcalc(x,y):
+    z=x*y
+    print("Product of two numbers are",z)
+newcalc(x,y)
+def average(*numbers):
+    sum=0
+    for i in numbers:
+        sum=sum+i
+    print("Average is:  ",sum/len(numbers))
+average(4,5,6,7,8)
+print("Code ran successfully!")
