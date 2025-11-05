@@ -1,0 +1,20 @@
+a="Manthan!!!!!!!!"
+print(a.rstrip("!"))
+print(a.upper())
+print(a.lower())
+print(a.replace("Manthan","Mannu"))
+print(a.split(" "))
+head="mannu"
+print(head.capitalize())
+print(head.center(50))
+print(head.count("n"))
+print(head.endswith("nu"))
+print(head.find("nu"))
+print(head.index("nu"))
+#if value not find : in find it will give ouptup as -1,in index it will show error
+print(head.isalnum())
+print(head.isalpha())
+print(head.islower())
+print(head.isprintable())
+print(head.startswith("ma"))
+print(head.swapcase())
