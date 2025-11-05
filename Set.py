@@ -1,0 +1,15 @@
+et1={1,2,3,4,5,6,7,5}#if any element repeats than it removes all others
+print(set1)
+print(type(set1))
+print(len(set1))
+set1.add("Billa Badmash")
+print(set1)
+set1.remove("Billa Badmash")
+print(set)
+set2={8,9,0,11,1,2124144}
+print(set2)
+set2.clear()
+print(set2)
+print(set1.union(set2))
+print(set1.intersection(set2))
+print(set1.isdisjoint(set2))
